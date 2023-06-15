@@ -1,4 +1,4 @@
-public class delivery
+public class Delivery
 {
     public void dlvry()
     {
@@ -219,4 +219,8 @@ public class delivery
         try{Thread.sleep(3000);}catch (Exception e){}
         System.out.print("\n\f");
     }
+    public static void main(String[] args){
+        Delivery d= new Delivery();
+        d.dlvry();
+        d.card();
 }
