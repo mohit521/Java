@@ -1,5 +1,6 @@
-public class delivery
+public class Delivery
 {
+    public static void main(String[] args){
     public void dlvry()
     {
         System.out.print("\n\f");
@@ -38,7 +39,13 @@ public class delivery
         System.out.println(" ^^^^^     ^^^^^***********************************^^^^^                   ***************************                      ");
         System.out.println(" ^^^^^     ^^^^^***********************************^^^^^                   ***************************                      ");
         System.out.println(" ^^^^^     ^^^^^***********************************^^^^^                   ***************************                      ");
-         try{Thread.sleep(300);}catch (Exception e){}
+         try{
+             Thread.sleep(300);
+            }
+         catch (Exception e)
+         {
+         e.printStackTrace();
+         }
         System.out.print("\n\f");
         System.out.println("                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                   ");
         System.out.println("                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                           ");
@@ -219,4 +226,5 @@ public class delivery
         try{Thread.sleep(3000);}catch (Exception e){}
         System.out.print("\n\f");
     }
+   }
 }
